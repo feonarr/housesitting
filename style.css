@@ -253,9 +253,9 @@ footer a:hover { color: var(--sage); }
 .hero-photo-col { display: flex; justify-content: flex-end; align-items: center; }
 
 .photo-frame {
-  width: 640px;
-  height: 580px;
-  border-radius: 320px 320px 100px 100px;
+  width: 720px;
+  height: 520px;
+  border-radius: 360px 360px 80px 80px;
   overflow: hidden;
   background: var(--parchment);
   border: 1px solid var(--warm-stone);
@@ -267,7 +267,7 @@ footer a:hover { color: var(--sage); }
   .photo-frame { width: 240px; height: 280px; }
 }
 
-.photo-frame img { width: 100%; height: 100%; object-fit: cover; }
+.photo-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 
 .photo-placeholder-hero {
   width: 100%; height: 100%;
