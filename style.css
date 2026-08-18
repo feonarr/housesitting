@@ -253,9 +253,9 @@ footer a:hover { color: var(--sage); }
 .hero-photo-col { display: flex; justify-content: flex-end; align-items: center; }
 
 .photo-frame {
-  width: 420px;
-  height: 540px;
-  border-radius: 210px 210px 80px 80px;
+  width: 340px;
+  height: 480px;
+  border-radius: 170px 170px 60px 60px;
   overflow: hidden;
   background: var(--parchment);
   border: 1px solid var(--warm-stone);
